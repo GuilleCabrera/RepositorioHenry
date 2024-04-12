@@ -1,0 +1,161 @@
+body {
+    background-color: #bebebe;
+}
+
+/* Header */
+
+#Encab{
+    border: 20px  groove  rgb(45, 119, 119);
+    background-color: #2e9e9e;
+    height: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Cortinela{
+    height: 3.3em;
+    width: 27em;
+    margin-left: 100px;
+}
+
+#Logo{
+    height: 4em;
+    width: 4em;
+    background-color: #797979;
+}
+
+/* Search bar */
+
+#Tamaño-barra{
+    height: 4vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+#Barra-Cat{
+display: flex;
+justify-content: space-around;
+}
+
+#Barra-Search{
+display: flex;
+}
+
+#Lupa{
+    width: 2.7em;
+    height: 2.7em;
+}
+
+#Buscador{
+    height: 2.7em;
+    width: 20em;
+    margin: 5px 0px 5px 0px;
+}
+
+
+.Titulo-Cat{
+    font-size: 1.7em;
+    display: flex;
+}
+
+
+/* Precentation */
+
+#Precentacion{
+    border: 20px  groove  rgb(45, 119, 119);
+    width: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#Foto-prin{
+    width: 60vw;
+    border-right: groove black 10px;
+}
+
+#Acomodar{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+#Titulo2{
+    color: #000000;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 0px 70px 0px;
+    display: flex;
+
+}
+
+.parrafos{
+    color: #0c0b0b ;
+    font-size: 1.3em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* seccion productos */
+
+#Titulo3{
+    display: flex;
+    justify-content: center;
+}
+
+.Titulo3{
+    margin-top: 2em;
+    font-size: 2.5em;
+}
+
+.Productos{
+    width: 90vw;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.Titulo4a{
+color: darkgoldenrod;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Titulo4r{
+    color: darkred;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.Tarjetas{
+    border: #000000 5px double;
+    border-radius: 3%;
+    width: fit-content;
+    padding: 1em;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Tarjetas:hover{
+    background-color: #2e9e9e;
+}
+
+.tamaño-prod{
+    width: 250px;
+    height: 350px;
+    border-radius: 3%;
+}
